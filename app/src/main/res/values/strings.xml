@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PalFit</string>
+
+    <string-array name="WorkOut_Day">
+        <item>Choose</item>
+        <item>Arms Day</item>
+        <item>Legs Day</item>
+        <item>Chest/Back Day</item>
+    </string-array>
+</resources>

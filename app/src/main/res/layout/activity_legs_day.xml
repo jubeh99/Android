@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#571B1B"
+    android:minHeight="120dp"
+    android:orientation="horizontal">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="188dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/x1" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Front Squat :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t2"
+                            android:layout_width="168dp"
+                            android:layout_height="match_parent"
+                            android:text="Set a barbell on a power rack at about shoulder height. Grab the power with an overhand grip at shoulder width and raise your elbows until your upper arms are parallel to the floor. Take the bar out of the rack and let it rest on your fingertips. Your elbows should be all the way up throughout the movement. Step back and set your feet at shoulder width with toes turned out slightly. Squat as low as you can without losing the arch in your lower back." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imageVie"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/x2" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t122"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Romanian Deadlift :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t221"
+                            android:layout_width="168dp"
+                            android:layout_height="match_parent"
+                            android:text="A killer deadlift variation, hold a barbell with a shoulder-width grip and stand with feet hip-width apart. Bend your hips back as far as you can. Allow your knees to bend as needed while you lower the bar along your shins until you feel a stretch in your hamstrings. Keep your lower back in its natural arched position throughout." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imageVw"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/x3" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t331"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dumbbell Stepup :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t772"
+                            android:layout_width="168dp"
+                            android:layout_height="match_parent"
+                            android:text="Stand behind a bench or another elevated surface that will put your thigh at parallel to the floor when you step your foot onto it. Hold a dumbbell in each hand and step onto the bench, but leave your trailing leg hanging off." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/mageView"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/x4" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t100"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Swiss Ball Leg Curl :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t882"
+                            android:layout_width="168dp"
+                            android:layout_height="match_parent"
+                            android:text="Brace your abs with heels on a stability ball. Raise your hips into the air, but keep your knees straight. From there, bend your knees and roll the ball back toward you. Keep your hips elevated throughout the set." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imaeView"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/x5" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t541"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Single-Leg Glute Bridge :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t092"
+                            android:layout_width="168dp"
+                            android:layout_height="match_parent"
+                            android:text="Lie on your back on the floor and bend both knees so that your feet rest on the floor close to your butt. Brace your abs and raise one leg up and bring the knee toward your chest. Drive the heel of the other foot into the floor. Bridge up until your body is in a straight line." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imageVew"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/x6" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t511"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kettlebell Press-Out :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t682"
+                            android:layout_width="168dp"
+                            android:layout_height="match_parent"
+                            android:text="Hold the weight close to your chest at shoulder level with both hands on the handle and palms facing each other. Squat down as deeply as you can, then press the bell straight out in front of you with arms extended. Bring it back to your chest and repeat for reps while maintaining the squat position." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

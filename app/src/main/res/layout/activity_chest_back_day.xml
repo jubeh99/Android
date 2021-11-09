@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#571B1B"
+    android:minHeight="120dp"
+    android:orientation="horizontal">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="163dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/t1" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t1"
+                            android:layout_width="241dp"
+                            android:layout_height="wrap_content"
+                            android:text="Barbell Bench Press :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t2"
+                            android:layout_width="252dp"
+                            android:layout_height="181dp"
+                            android:text="Grasp the bar just outside shoulder-width and arch your back so there’s space between your lower back and the bench. Pull the bar out of the rack and lower it to your sternum, tucking your elbows about 45° to your sides. When the bar touches your body, drive your feet hard into the floor and press the bar back up." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imageVie"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/t2" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t122"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Smith Machine Incline Press :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t221"
+                            android:layout_width="253dp"
+                            android:layout_height="138dp"
+                            android:text="Set an adjustable bench to a 30°-45° incline, and roll it into the center of a Smith machine rack. Grasp the bar with an overhand, shoulder-width grip. Unrack the bar, lower it to the upper part of your chest, and press straight up." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imageVw"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/t3" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t331"
+                            android:layout_width="235dp"
+                            android:layout_height="38dp"
+                            android:text="Dumbbell Flye :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t772"
+                            android:layout_width="257dp"
+                            android:layout_height="match_parent"
+                            android:text="Lie back on a flat bench with a dumbbell in each hand. Keep a slight bend in your elbows and spread your arms wide, lowering the weights until they’re even with your chest. Flex your pecs and lift the weights back to the starting position." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imarrgeView"
+                        android:layout_width="128dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/t4" />
+
+                    <LinearLayout
+                        android:layout_width="203dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t4251"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Deadlift :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t9872"
+                            android:layout_width="246dp"
+                            android:layout_height="match_parent"
+                            android:text="Stand with feet hip-width apart and bend your hips back. Your grip should be just outside of your knees. Keeping a flat black, extend your hips to stand up, and pull the bar up along your body until lock-out, as your hips drive through and your shoulders move back. While pulling, keep your eyes on the ground a few feet in front of you. Carefully lower the bar back to the starting position." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imawageVie"
+                        android:layout_width="121dp"
+                        android:layout_height="182dp"
+                        app:srcCompat="@drawable/t5" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t1922"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Weighted Pullup :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t1121"
+                            android:layout_width="255dp"
+                            android:layout_height="match_parent"
+                            android:text="Attach a weighted belt to your waist, hold a dumbbell between your feet, or—if you can’t complete your reps with weight—use body weight alone. Hang from a pullup bar with your hands just outside shoulder width. Pull yourself up until your chin is over the bar." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imag2eVw"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/t6" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Towel Cable Row :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t72"
+                            android:layout_width="248dp"
+                            android:layout_height="match_parent"
+                            android:text="Hook a towel to a cable pulley and stand in front of it. Set up to do a row, holding an end of the towel in each hand. Squeeze your shoulder blades together and row the towel to your rib cage." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

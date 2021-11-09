@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#571B1B"
+    android:minHeight="120dp"
+    android:orientation="horizontal">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <TableRow android:layout_height="109dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="188dp"
+                        android:layout_height="match_parent"
+                        android:background="#5A2929"
+                        app:srcCompat="@drawable/j1" />
+
+                    <LinearLayout
+                        android:layout_width="109dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Close-grip Pushup :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t2"
+                            android:layout_width="168dp"
+                            android:layout_height="206dp"
+                            android:text="Place your hands inside shoulder width and lower your body until your chest is about an inch above the floor. To increase the difficulty, elevate your feet on a bench or box." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imageVie"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/j2" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t122"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Band Lateral Raise :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t221"
+                            android:layout_width="168dp"
+                            android:layout_height="215dp"
+                            android:text="Step on the free end of each band with the opposite foot so the bands form an X in front of your body. Raise your arms 90 degrees out to the sides until your upper arms are parallel to the floor." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imageVw"
+                        android:layout_width="154dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/j3" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t331"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dive Bomber Pushup :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t772"
+                            android:layout_width="168dp"
+                            android:layout_height="match_parent"
+                            android:text="Get into pushup position. Push your hands into the floor to drive your weight back so your hips rise into the air. Your back should be straight and your head behind your hands. Lower your body in an arcing motion so that your chest scoops downward and nearly scrapes the floor. Continue moving forward as you press your body up so your torso is vertical and your legs are straight and nearly on the floor. That’s one rep." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imagiew"
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/j4" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t981"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="High-to-Low Plank :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t562"
+                            android:layout_width="168dp"
+                            android:layout_height="match_parent"
+                            android:text="Begin in a forearm plank position. Push from your triceps, placing your right hand on the ground and then your left hand, gradually rising to pushup position. Return to the forearm plank by placing your right forearm down, then your left." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imagw"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/j5" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t155"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Towel Pullup and Chinup :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t322"
+                            android:layout_width="168dp"
+                            android:layout_height="match_parent"
+                            android:text="Drape a towel over a pullup bar, grab hold of an end of the towel in each hand, and pull up. For chinups, drape two gym towels over a pullup bar so both ends of the towels hang down. Perform your chinups by gripping the towels rather than the bar. This challenges the forearms and improves grip strength." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/imageView77"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/j6" />
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/t991"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Side Curl With Band :"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold|italic" />
+
+                        <TextView
+
+                            android:id="@+id/t662"
+                            android:layout_width="168dp"
+                            android:layout_height="match_parent"
+                            android:text="Attach two bands to sturdy objects at shoulder height that face each other. Stand between them and hold an end in each hand. Raise your arms out 90 degrees with elbows extended—you should still feel some tension on the band in this starting position. Curl the bands toward your ears and hold the contracted position for two seconds." />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
